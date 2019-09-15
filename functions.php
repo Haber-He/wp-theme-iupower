@@ -1,7 +1,8 @@
 <?php
 
     add_theme_support( 'nav-menus' );
-    
+	add_theme_support( 'post-thumbnails' ); 
+
     require_once( dirname(__FILE__).'/category_field.php' );
 
     if(function_exists('register_nav_menus')){

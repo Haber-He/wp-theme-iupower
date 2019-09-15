@@ -1,4 +1,3 @@
-
 <?php get_header(); ?>
 
 <?php get_sidebar('top'); ?>
@@ -21,7 +20,8 @@
                     'cat'       => $cat_id,
                     'paged'     => $paged,
                     'orderby'   => 'date',
-                    'order'     => 'DESC'
+                    'order'     => 'DESC',
+					'posts_per_page' => 12
                 );
                 $posts = query_posts($args);
         ?>

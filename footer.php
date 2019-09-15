@@ -1,78 +1,75 @@
 <!-- /footer -->
-  <footer class="footer">
-   <div class="inner">
-    <div class="foot-menu">
-     <ul id="menu-footermenu" class="foot-nav">
-      <li id="menu-item-743" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-743">
-        <a href="#">关于我们</a></li>
-      <li id="menu-item-748" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-748"><a href="#">新闻动态</a></li>
-      <li id="menu-item-745" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-745"><a href="#">销售网络</a></li>
-      <li id="menu-item-746" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-746"><a href="#">职位招聘</a></li>
-      <li id="menu-item-961" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-961"><a href="#">联系我们</a></li>
-      <li id="menu-item-1078" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1078"><a href="#">在线留言</a></li>
-     </ul>
-    </div>
-    <div class="copyright">
-     <p><img src="<?php bloginfo('template_url'); ?>/images/phone.gif" alt="服务热线" class="fadeInLeft wow" style="visibility: hidden; -webkit-animation-name: none; -moz-animation-name: none; animation-name: none;" /></p>
-     <p>Copyright &#169; 2015 <a href="<?php bloginfo('url');?>"><?php bloginfo('name');?></a> All Rights Reserved.</p>
-     <p>网站开发设计：<a href="#" target="_blank">Haber</a></p>
-    </div>
-   </div>
-  </footer>
+<footer class="footer">
+	<div class="inner">
+		<div class="foot-menu">
+			<ul id="menu-footermenu" class="foot-nav">
+				<li class="menu-item">
+					<a href="/about-us">关于我们</a>
+				</li>
+				<li class="menu-item">
+					<a href="/products">产品展示</a>
+				</li>
+				<li class="menu-item">
+					<a href="/cases">案例展示</a>
+				</li>
+				<li class="menu-item">
+					<a href="/recruitment">职位招聘</a>
+				</li>
+				<li class="menu-item">
+					<a href="/contact">联系我们</a>
+				</li>
+			</ul>
+		</div>
+		<div class="copyright">
+			<p>Copyright &#169; <?php echo date("Y"); ?> <a href="<?php bloginfo('url');?>"><?php bloginfo('name');?></a> 版权所有.</p>
+		</div>
+	</div>
+</footer>
 
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/jquery.form.min.js"></script>
 <script type="text/javascript">/*  */
-var _wpcf7 = {"loaderUrl":"<?php bloginfo('template_url'); ?>/images/ajax-loader.gif","sending":"\u53d1\u9001\u4e2d\u3002\u3002\u3002"};
-/*  */</script>
+	var _wpcf7 = {"loaderUrl":"<?php bloginfo('template_url'); ?>/images/ajax-loader.gif","sending":"\u53d1\u9001\u4e2d\u3002\u3002\u3002"};
+	/*  */</script>
 <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/scripts.js"></script>
 <!--[if lte IE 6]>
-    <script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/DD_belatedPNG.js"></script>
-    <script type="text/javascript">DD_belatedPNG.fix('.bx-wrapper .bx-prev,.bx-wrapper .bx-next,#btn-so,#search-box #searchform #searchsubmit,.banner-shadow,.row-scroll .bx-controls a');</script>
+<script type="text/javascript" src="<?php bloginfo('template_url'); ?>/js/DD_belatedPNG.js"></script>
+<script type="text/javascript">DD_belatedPNG.fix('.bx-wrapper .bx-prev,.bx-wrapper .bx-next,#btn-so,#search-box #searchform #searchsubmit,.banner-shadow,.row-scroll .bx-controls a');</script>
 <![endif]-->
 
-  <div class="cs-div cs-bar" style="top: 200px; right: 0px;"> 
-   <span id="cs-close">X</span>
-   <div class="cs-inner">
-    <ul>
-        <li>
-            <h2>加盟咨询</h2>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=454518542&site=qq&menu=yes">
-            <img border="0" src="http://wpa.qq.com/pa?p=2:454518542:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=454518542&site=qq&menu=yes">
-            <img border="0" src="http://wpa.qq.com/pa?p=2:454518542:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
-        </li>
-        
-        <li>
-            <h2>技术支持</h2>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=454518542&site=qq&menu=yes">
-            <img border="0" src="http://wpa.qq.com/pa?p=2:454518542:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
-        </li>
-        
-        <li>
-            <h2>技术支持</h2>
-            <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=454518542&site=qq&menu=yes">
-            <img border="0" src="http://wpa.qq.com/pa?p=2:454518542:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
-        </li>
-    <ul>
-   </div>
-   <div class="cs-btm"></div>
-  </div>
+<div class="cs-div cs-bar" style="top: 200px; right: 0px;"> 
+	<span id="cs-close">X</span>
+	<div class="cs-inner">
+		<ul>
+			<li>
+				<h2>技术支持</h2>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1668417448&amp;site=qq&menu=yes">
+					<img border="0" src="http://wpa.qq.com/pa?p=2:1668417448:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+			</li>
 
-<script type="text/javascript">
-jQuery(document).ready(function(){
-	jQuery(function(){
-        jQuery(".cs-div").css({"top":200+jQuery(window).scrollTop(),"right":"0"});
-        jQuery(window).scroll(function(){
-            var offsetTop=200+jQuery(window).scrollTop()+"px";
-            jQuery(".cs-div").animate({top:offsetTop,"right":"0"},{duration:500,queue:false})});
-            jQuery(window).resize(function(){var offsetTop=200+jQuery(window).scrollTop()+"px";
-            jQuery(".cs-div").animate({top:offsetTop,"right":"0"},{duration:500,queue:false})});
-            jQuery("#cs-close").click(function(){
-                jQuery(".cs-inner").toggle();jQuery(".cs-div").toggleClass("cs-bar");
-            });
-        });
-});
-</script>
+			<li>
+				<h2>售后服务</h2>
+				<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1668417448&amp;site=qq&menu=yes">
+					<img border="0" src="http://wpa.qq.com/pa?p=2:1668417448:47" alt="点击这里给我发消息" title="点击这里给我发消息" /></a>
+			</li>
+		<ul>
+	</div>
+	<div class="cs-btm"></div>
+</div>
 
-</body>
+		<script type="text/javascript">
+			jQuery(document).ready(function(){
+				jQuery(function(){
+					jQuery(".cs-div").css({"top":200+jQuery(window).scrollTop(),"right":"0"});
+					jQuery(window).scroll(function(){
+						var offsetTop=200+jQuery(window).scrollTop()+"px";
+						jQuery(".cs-div").animate({top:offsetTop,"right":"0"},{duration:500,queue:false})});
+					jQuery(window).resize(function(){var offsetTop=200+jQuery(window).scrollTop()+"px";
+													 jQuery(".cs-div").animate({top:offsetTop,"right":"0"},{duration:500,queue:false})});
+					jQuery("#cs-close").click(function(){
+						jQuery(".cs-inner").toggle();jQuery(".cs-div").toggleClass("cs-bar");
+					});
+				});
+			});
+		</script>
+	</body>
 </html>
